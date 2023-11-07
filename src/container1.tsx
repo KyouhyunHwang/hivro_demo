@@ -42,7 +42,7 @@ const Container1 = () => {
     setDefaultDirection("center");
 
     ws.current = new WebSocket(
-      "wss://15h2469067.execute-api.ap-northeast-2.amazonaws.com/dev"
+      "wss://n253p5730f.execute-api.ap-northeast-2.amazonaws.com/dev"
     );
     ws.current.onopen = () => {
       console.log("connected");
@@ -52,7 +52,7 @@ const Container1 = () => {
     ws.current.onclose = () => {
       setTimeout(() => {
         ws.current = new WebSocket(
-          "wss://15h2469067.execute-api.ap-northeast-2.amazonaws.com/dev"
+          "wss://n253p5730f.execute-api.ap-northeast-2.amazonaws.com/dev"
         );
       }, 3000);
     };
