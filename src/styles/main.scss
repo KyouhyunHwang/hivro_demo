@@ -1,0 +1,192 @@
+body {
+  color: #fff;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #bdbdbd;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.mainTop {
+  display: flex;
+  align-items: center;
+}
+
+// footer로 따로 빼면 화살표 잘림
+//.mainFooter {
+//  display: flex;
+//  align-items: center;
+//  margin-top: 50px;
+//}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 0 80px;
+}
+
+.left {
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.center {
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.right {
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.rectangleBox {
+  border: 2px solid #bdbdbd;
+  //background-color: #424242;
+  //margin: 40px;
+}
+
+.rectangleTitle {
+  font-size: 16px;
+  color: #3884e0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.rectangleWait {
+  .rectangleTitle {
+    color: #35c76f;
+  }
+}
+
+.rectangleWait.currentColor {
+  .rectangleTitle {
+    //color: #424242;
+    color: #ffffff;
+  }
+}
+
+.rectangleRed {
+  .rectangleTitle {
+    color: #d02f34;
+  }
+}
+
+.rectangleRed.currentColor {
+  .rectangleTitle {
+    color: #3884e0;
+  }
+}
+
+.rectanglePurple {
+  .rectangleTitle {
+    color: #cb2fd0;
+  }
+}
+
+.rectangleContent {
+  font-size: 16px;
+  //color: #424242;
+  color: #ffffff;
+}
+
+.doneColor {
+  //background-color: #fdc04e;
+  //background-color: #FDE490FF;
+  //background-color: #fdb735;
+  background-color: orange;
+}
+
+.currentColor {
+  //background-color: #81a0ba;
+  //background-color: #76e81d;
+  background-color: #8bc53f;
+}
+
+.diamondTitle {
+  font-size: 16px;
+  color: #5d9558;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.diamond {
+  position: relative;
+  height: 120px;
+  width: 240px;
+  line-height: 200px;
+  text-align: center;
+}
+
+.diamond svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+path.outer {
+  //fill: white;
+  stroke: transparent;
+  -webkit-filter: url(#dropshadow);
+  filter: url(#dropshadow);
+}
+
+path.inner {
+  fill: transparent;
+  //stroke: #fdb735;
+  stroke: orange;
+}
+
+.diamondContent {
+  font-size: 16px;
+  //color: #424242;
+  color: #ffffff;
+}
+
+.emptyBox {
+  width: 200px;
+  height: 100px;
+  border: 2px solid #bdbdbd;
+  border-radius: 30px;
+  opacity: 0;
+}
+
+.arrow_text {
+  font-size: 16px;
+    color: #ffffff;
+}
+
+.arrow_svg_text {
+  font-size: 16px;
+  fill: #fff;
+}
+
+.blackFont {
+  //color: #424242;
+  color: #ffffff;
+}
+
+.logContainer {
+  height: 100%;
+  //border-left: #424242 1px solid;
+  padding-top: 50px;
+  padding-left: 10px;
+  margin-top: 50px;
+}

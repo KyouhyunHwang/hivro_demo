@@ -1,0 +1,10 @@
+{
+  "task_description": "Receive Payment Result",
+  "log": {
+    "error": {
+      "code": "Not Found",
+      "metadata": {},
+      "timestamp": "2022-11-16T08:51:29.980Z"
+    }
+  }
+}

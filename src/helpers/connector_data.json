@@ -1,0 +1,38 @@
+{
+  "Request Charing Start": {
+    "connector_id": "NX-CON5K10bs50aqzDhSCrUmKjHE",
+    "api_id": "NX-API53kacnYXH65BADW5q17hZC"
+  },
+  "Get Charging Status": {
+    "connector_id": "NX-CON5K10bs50aqzDhSCrUmKjHE",
+    "api_id": "NX-API39QthWxiWhCv3V67SAqQOJ"
+  },
+  "Register Charging Status": {
+    "connector_id": "NX-CON3fJT4igNecptcrSy0CMuBv",
+    "api_id": "NX-API3eSDNMXlqbdQjzQHl1NjuW"
+  },
+  "Get Charging Result": {
+    "connector_id": "NX-CON5K10bs50aqzDhSCrUmKjHE",
+    "api_id": "NX-API6gtDauRUbS5yLBVaiTKSXX"
+  },
+  "Register Charging Result": {
+    "connector_id": "NX-CON3fJT4igNecptcrSy0CMuBv",
+    "api_id": "NX-API4bgKmO6vrQDufUCDY15YCL"
+  },
+  "Wait Payment Confirm": {
+    "connector_id": "Callback Connector",
+    "api_id": "Callback Api"
+  },
+  "Request Payment": {
+    "connector_id": "NX-CON5K10bs50aqzDhSCrUmKjHE",
+    "api_id": "NX-API4zzl6DwhtSGdQSEm1DkLMd"
+  },
+  "Get Payment Result": {
+    "connector_id": "NX-CON5K10bs50aqzDhSCrUmKjHE",
+    "api_id": "NX-API1qv3d9sE9ozySeLgCmQcp4"
+  },
+  "Register Payment Result": {
+    "connector_id": "NX-CON3fJT4igNecptcrSy0CMuBv",
+    "api_id": "NX-API6aca03BkSNNrlkBHhgHjph"
+  }
+}
